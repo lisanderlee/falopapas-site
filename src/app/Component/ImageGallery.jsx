@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useEffect, useState } from "react";
+import {  useEffect} from "react";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import imagesLoaded from "imagesloaded";
@@ -56,13 +56,13 @@ const ImageGallery = () => {
     <div>
       <div className="loader df aic jcc">
         <div>
-          <h1>Loading</h1>
-          <h2 className="loader--text">0%</h2>
+          <h1 className="text-white">Loading</h1>
+          <h2 className="loader--text text-white">0%</h2>
         </div>
       </div>
       <div className="demo-wrapper">
         <section class="demo-text">
-          <div class="wrapper text">PAINT</div>
+          <div class=" text-white wrapper  text">FALOPAPAS</div>
         </section>
         <section class="demo-gallery">
           <ul class="wrapper">
@@ -191,7 +191,7 @@ const ImageGallery = () => {
           </ul>
         </section>
         <section class="demo-text">
-          <div class="wrapper text">FALOAPAPASFALOAPAPAS</div>
+          <div class="wrapper text-white text"> CCOLORSTUDIO</div>
         </section>
         <footer class="df aic jcc"></footer>
       </div>
