@@ -29,9 +29,9 @@ body {
 
 body {
 	background: linear-gradient(-45deg, #313131, #ff0062, #022a39, #1c2523);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+	/* background-size: 400% 400%; */
+	/* animation: gradient 15s ease infinite; */
+
 }
 
 @keyframes gradient {
@@ -71,7 +71,7 @@ li {
 }
 
 header {height: 100vh}
-footer {height: 50vh}
+footer {height: 10vh}
 
 
 .df {display: flex}

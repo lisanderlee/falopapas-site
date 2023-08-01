@@ -1,4 +1,6 @@
-export default function Header() {
+
+
+export default function Bio() {
   return (
     <div className="relative h-full justify-between mt-6 items-center  px-5 lg:px-20">
       <header class="df aic jcc">
