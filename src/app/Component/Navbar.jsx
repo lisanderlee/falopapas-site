@@ -1,6 +1,17 @@
+"use client"
 import Image from "next/image";
 
 export default function Navbar() {
+
+
+    function handleClick() {
+        const section = document.getElementById('sectionId');
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    
+
   return (
     <div className="flex flex-row justify-between mt-2 items-center h-24 px-5 lg:px-20">
       <div className=" lg:flex hidden">
@@ -18,15 +29,16 @@ export default function Navbar() {
         </button>
       </div>
       <div className="flex flex-row items-center">
-        <button className="mr-5">
+        <a href="http://www.instagram.com/falopapas" target="_blank" className="mr-5">
           <Image
             src="/web-images/instagram.svg"
             width={50}
             height={50}
             alt="Picture of the author"
+          
           />
-        </button>
-        <button className="outline text-white hover:bg-white hover:text-black outline-white px-5 py-2 rounded-full ">
+        </a>
+        <button onClick={handleClick} className="outline text-white hover:bg-white hover:text-black outline-white px-5 py-2 rounded-full ">
           Contact
         </button>
       </div>

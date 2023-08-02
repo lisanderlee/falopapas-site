@@ -162,6 +162,20 @@ const ImageGallery = () => {
                 width="1240"
               />
             </li>
+            <li>
+              <img
+                height="874"
+                src="https://source.unsplash.com/random/1240x874?sig=95"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="https://source.unsplash.com/random/1240x874?sig=95"
+                width="1240"
+              />
+            </li>
           </ul>
         </section>
 
@@ -191,7 +205,7 @@ const ImageGallery = () => {
           </ul>
         </section>
         <section class="demo-text">
-          <div class="wrapper text-white text"> CCOLORSTUDIO</div>
+          <div class="wrapper text-white text"> ARTSTUDIO</div>
         </section>
         <footer class="df aic jcc"></footer>
       </div>
