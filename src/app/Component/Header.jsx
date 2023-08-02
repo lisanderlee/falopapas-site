@@ -1,3 +1,6 @@
+
+import Link from "next/link";
+
 export default function Header() {
   return (
     <div className="relative h-full justify-between mt-6 items-center  px-5 lg:px-20">
@@ -13,9 +16,9 @@ export default function Header() {
             degree in Fine Arts and a thriving career in painting and public art
             since 2005, Néstor Augusto Turallas, aka Falopapas, invites you to
             explore his captivating world of creativity and inspiration.
-            <button className=" ml-1 font-bold hover:bg-white text-purple-600 text-md hover:text-black outline-white px-5 py-2 rounded-full ">
+            <Link href="/bio/" className=" ml-1 font-bold hover:bg-white text-purple-600 text-md hover:text-black outline-white px-5 py-2 rounded-full ">
               Learn More
-            </button>
+            </Link>
           </h2>
         </div>
       </header>
