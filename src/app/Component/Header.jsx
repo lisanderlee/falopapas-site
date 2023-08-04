@@ -15,7 +15,7 @@ export default function Header() {
           since 2005, Néstor Augusto Turallas, aka Falopapas, invites you to
           explore his captivating world of creativity and inspiration.
         </h2>
-        <div className="outline text-white hover:bg-white hover:text-black outline-white px-5 py-2 w-36 mt-5 rounded-full">
+        <div className="outline   text-center justify-center text-white hover:bg-white hover:text-black outline-white   py-2 w-36 mt-5 rounded-full">
         <Link
           href="/bio/"
         >

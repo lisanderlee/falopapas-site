@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navbar from "../Component/Navbar";
+import ContactUs from "../Component/Contact";
 export default function Bio() {
   return (
     <>
@@ -26,6 +27,7 @@ export default function Bio() {
         </div> */}
       </div>
     </div>
+    <ContactUs />
     </>
   );
 }
