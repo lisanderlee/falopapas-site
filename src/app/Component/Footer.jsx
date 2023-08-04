@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="lg:px-28  md:px-11 sm:px-5  ">
+    <div className="lg:px-20  md:px-11 sm:px-5  ">
 
 
       <div className="w-full h-px bg-white mt-10"></div>

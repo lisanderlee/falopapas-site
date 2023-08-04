@@ -5,9 +5,9 @@ import React from "react";
 export default function ContactUs() {
   return (
     <>
-      <div id="sectionId" className="lg:px-20 mb-20   md:px-11 lg:pb-32 lg:pt-32 sm:px-5 p-10 ">
+      <div id="sectionId" className="lg:px-20 mb-20 md:px-11 lg:pb-32 lg:pt-32 sm:px-2 px-5 ">
         <div className="flex flex-col mb-12 lg:flex-row   ">
-          <div className=" flex-1 font-bold mt-10  lg:mt-0 text-4xl flex-col text-white	">
+          <div className=" flex-1 font-bold mt-10  lg:mt-0 text-3xl flex-col text-white	">
             <p>WE WOULD LOVE TO </p>
             <p>HEAR FROM YOU</p>
           </div>
@@ -18,23 +18,7 @@ export default function ContactUs() {
             </p>
           </div>
         </div>
-
         <div className="flex lg:flex-row  lg:mt-1 flex-col-reverse ">
-          <div className="flex flex-1  lg:flex-col  ">
-            <div className=" flex-1 font-bold text-3xl ">
-              <div className=" flex">
-                <div className="items-center">
-                  <img src="web-images/location.svg" alt="logo" width="30" />
-                </div>
-                <div className="text-base ml-3 text-white">
-                  <p className="font-bold">UNITED STATES</p>
-                  <p>18021 BISCAYNE BLVD, OF. 303</p>
-                  <p>AVENTURA FLORIDA, USA</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div className="flex  flex-col flex-1 ">
             <form action="" method="get">
               <input
