@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="relative h-full justify-between mt-6 items-center  px-5 lg:px-20">
+    <div className=" h-full justify-between mt-6 items-center  px-5 lg:px-20">
       <header class="df aic jcc">
         <div>
-          <h1 className=" text-white font-bold">
+          <h1 className=" text-5xl text-white font-bold">
             Welcome to Falopapas Studio,
           </h1>
-          <h2 className="text-white font-bold">
+          <h2 className="text-white text-xl lg:text-4xl  lg:leading-10 font-bold">
             a Miami-based haven of contemporary art. Run by the accomplished
             Argentine artist and visionary, Mr. Falopapas, our studio offers a
             unique blend of urban sophistication and modern subjects. With a
