@@ -69,21 +69,21 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=199"
+                src="/content-images/Photo11.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=52"
+                src="/content-images/Photo12.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=52"
+                src="/content-images/Photo13.png"
                 width="1240"
               />
             </li>
@@ -95,53 +95,21 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=125"
+                src="/content-images/Photo21.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=41"
+                src="/content-images/Photo22.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=139"
-                width="1240"
-              />
-            </li>
-          </ul>
-        </section>
-        <section class="demo-gallery">
-          <ul class="wrapper">
-            <li>
-              <img
-                height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=29"
-                width="1240"
-              />
-            </li>
-            <li>
-              <img
-                height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=78"
-                width="1240"
-              />
-            </li>
-            <li>
-              <img
-                height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=193"
-                width="1240"
-              />
-            </li>
-            <li>
-              <img
-                height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=111"
+                src="/content-images/Photo23.png"
                 width="1240"
               />
             </li>
@@ -152,35 +120,67 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=44"
+                src="/content-images/Photo31.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=91"
+                src="/content-images/Photo32.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=95"
+                src="/content-images/Photo33.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=95"
+                src="/content-images/Photo34.png"
+                width="1240"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="demo-gallery">
+          <ul class="wrapper">
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo41.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=95"
+                src="/content-images/Photo42.png"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo43.png"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo44.png"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo45.png"
                 width="1240"
               />
             </li>
@@ -192,21 +192,46 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=44"
+                src="/content-images/Photo51.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=91"
+                src="/content-images/Photo52.png"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="https://source.unsplash.com/random/1240x874?sig=95"
+                src="/content-images/Photo53.png"
+                width="1240"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="demo-gallery">
+          <ul class="wrapper">
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo61.png"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo62.png"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo63.png"
                 width="1240"
               />
             </li>
