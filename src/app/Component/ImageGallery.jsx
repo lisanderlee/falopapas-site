@@ -69,21 +69,21 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="/content-images/Photo11.png"
+                src="/content-images/Photo11.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo12.png"
+                src="/content-images/Photo12.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo13.png"
+                src="/content-images/Photo13.jpg"
                 width="1240"
               />
             </li>
@@ -95,53 +95,21 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="/content-images/Photo21.png"
+                src="/content-images/Photo21.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo22.png"
+                src="/content-images/Photo22.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo23.png"
-                width="1240"
-              />
-            </li>
-          </ul>
-        </section>
-        <section class="demo-gallery">
-          <ul class="wrapper">
-            <li>
-              <img
-                height="874"
-                src="/content-images/Photo31.png"
-                width="1240"
-              />
-            </li>
-            <li>
-              <img
-                height="874"
-                src="/content-images/Photo32.png"
-                width="1240"
-              />
-            </li>
-            <li>
-              <img
-                height="874"
-                src="/content-images/Photo33.png"
-                width="1240"
-              />
-            </li>
-            <li>
-              <img
-                height="874"
-                src="/content-images/Photo34.png"
+                src="/content-images/Photo23.jpg"
                 width="1240"
               />
             </li>
@@ -152,35 +120,67 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="/content-images/Photo41.png"
+                src="/content-images/Photo31.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo42.png"
+                src="/content-images/Photo32.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo43.png"
+                src="/content-images/Photo33.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo44.png"
+                src="/content-images/Photo34.jpg"
+                width="1240"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="demo-gallery">
+          <ul class="wrapper">
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo41.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo45.png"
+                src="/content-images/Photo42.jpg"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo43.jpg"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo44.jpg"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="/content-images/Photo45.jpg"
                 width="1240"
               />
             </li>
@@ -192,21 +192,21 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="/content-images/Photo51.png"
+                src="/content-images/Photo51.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo52.png"
+                src="/content-images/Photo52.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo53.png"
+                src="/content-images/Photo53.jpg"
                 width="1240"
               />
             </li>
@@ -217,21 +217,21 @@ const ImageGallery = () => {
             <li>
               <img
                 height="874"
-                src="/content-images/Photo61.png"
+                src="/content-images/Photo61.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo62.png"
+                src="/content-images/Photo62.jpg"
                 width="1240"
               />
             </li>
             <li>
               <img
                 height="874"
-                src="/content-images/Photo63.png"
+                src="/content-images/Photo63.jpg"
                 width="1240"
               />
             </li>

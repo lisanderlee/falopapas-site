@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function ContactUs() {
   const [formData, setFormData] = useState({
@@ -34,7 +35,7 @@ export default function ContactUs() {
     <>
       <div
         id="sectionId"
-        className="lg:px-20 mb-20 md:px-11 lg:pb-32 lg:pt-32 sm:px-2 px-5 "
+        className="lg:px-20 mb-10 md:px-11 lg:pb-32 lg:pt-32 sm:px-2 px-5 "
       >
         <div className="flex flex-col mb-12 lg:flex-row   ">
           <div className=" flex-1 font-bold mt-10  lg:mt-0 text-3xl flex-col text-white	">
@@ -55,7 +56,7 @@ export default function ContactUs() {
         <div className="flex lg:flex-row  lg:mt-1 flex-col-reverse ">
           <div className="flex  flex-col flex-1 ">
             <form onSubmit={handleSubmit}>
-              <div className="my-5 ml-5">
+              <div className="my-5 ml-2">
                 <label className=" text-white  " htmlFor="Name">
                   Name:
                 </label>
@@ -70,7 +71,7 @@ export default function ContactUs() {
                 required
                 className="w-full bg-gray-300 h-16 rounded-full px-10 sans text-gray-500 "
               />
-              <div className="mt-10 ml-5">
+              <div className="mt-10 ml-2">
                 <label className=" text-white  " htmlFor="email">
                   Email:
                 </label>
@@ -84,7 +85,7 @@ export default function ContactUs() {
                 required
                 className="w-full bg-gray-300 h-16 rounded-full px-10 sans text-gray-500 mt-5"
               />
-              <div className="mt-10 ml-5">
+              <div className="mt-10 ml-2">
                 <label className="text-white" htmlFor="message">
                   Message:
                 </label>
@@ -107,6 +108,7 @@ export default function ContactUs() {
             </form>
           </div>
         </div>
+      
       </div>
     </>
   );
