@@ -61,11 +61,11 @@ const ImageGallery = () => {
         </div>
       </div>
       <div className="demo-wrapper">
-        <section class="demo-text">
-          <div class=" text-white wrapper  text">FALOPAPAS</div>
+        <section className="demo-text">
+          <div className=" text-white wrapper  text">FALOPAPAS</div>
         </section>
-        <section class="demo-gallery">
-          <ul class="wrapper">
+        <section className="demo-gallery">
+          <ul className="wrapper">
             <li>
               <img
                 height="874"
@@ -90,8 +90,8 @@ const ImageGallery = () => {
          
           </ul>
         </section>
-        <section class="demo-gallery">
-          <ul class="wrapper">
+        <section className="demo-gallery">
+          <ul className="wrapper">
             <li>
               <img
                 height="874"
@@ -115,8 +115,8 @@ const ImageGallery = () => {
             </li>
           </ul>
         </section>
-        <section class="demo-gallery">
-          <ul class="wrapper">
+        <section className="demo-gallery">
+          <ul className="wrapper">
             <li>
               <img
                 height="874"
@@ -147,8 +147,8 @@ const ImageGallery = () => {
             </li>
           </ul>
         </section>
-        <section class="demo-gallery">
-          <ul class="wrapper">
+        <section className="demo-gallery">
+          <ul className="wrapper">
             <li>
               <img
                 height="874"
@@ -187,8 +187,8 @@ const ImageGallery = () => {
           </ul>
         </section>
 
-        <section class="demo-gallery">
-          <ul class="wrapper">
+        <section className="demo-gallery">
+          <ul className="wrapper">
             <li>
               <img
                 height="874"
@@ -212,8 +212,8 @@ const ImageGallery = () => {
             </li>
           </ul>
         </section>
-        <section class="demo-gallery">
-          <ul class="wrapper">
+        <section className="demo-gallery">
+          <ul className="wrapper">
             <li>
               <img
                 height="874"
@@ -237,10 +237,10 @@ const ImageGallery = () => {
             </li>
           </ul>
         </section>
-        <section class="demo-text">
-          <div class="wrapper text-white text"> ARTSTUDIO</div>
+        <section className="demo-text">
+          <div className="wrapper text-white text"> ARTSTUDIO</div>
         </section>
-        <footer class="df aic jcc"></footer>
+        <footer className="df aic jcc"></footer>
       </div>
     </div>
   );

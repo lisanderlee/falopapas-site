@@ -1,35 +1,8 @@
 "use client";
 import React from "react";
-import { useState } from "react";
 import Image from "next/image";
 
 export default function ContactUs() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const res = await fetch("/app/api/submitForm", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-      const data = await res.json();
-      console.log(data); // You can handle the response here
-    } catch (error) {
-      console.error("Error submitting form:", error);
-    }
-  };
 
   return (
     <>
@@ -51,10 +24,39 @@ export default function ContactUs() {
               <br />
               <span className=" font-bold">Let&rsquo;s create together!</span>
             </p>
+            <div className="mt-10 font-bold text-xl">
+          <a className="flex items-center" href="mailto:falopapas.art@gmail.com">
+          <Image
+              src="/web-images/mail.svg"
+              width={50}
+              height={50}
+              alt="instagram logo"
+            />
+            <p className="ml-4 text-white ">falopapas.art@gmail.com</p>
+          </a>
+          <a
+            href="http://www.instagram.com/falopapas"
+            target="_blank"
+            className="flex items-center mt-5" 
+          >
+            <Image
+              src="/web-images/instagram.svg"
+              width={50}
+              height={50}
+              alt="instagram logo"
+            />
+             <p className="ml-4 text-white ">@falopapas</p>
+          </a>
+        </div>
           </div>
         </div>
         <div className="flex lg:flex-row  lg:mt-1 flex-col-reverse ">
-          <div className="flex  flex-col flex-1 ">
+      
+
+        <div className="mb-3">
+       
+        </div>
+          {/* <div className="flex  flex-col flex-1 ">
             <form onSubmit={handleSubmit}>
               <div className="my-5 ml-2">
                 <label className=" text-white  " htmlFor="Name">
@@ -106,10 +108,12 @@ export default function ContactUs() {
                 Submit
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       
       </div>
     </>
   );
 }
+
+
