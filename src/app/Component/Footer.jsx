@@ -10,13 +10,13 @@ export default function Footer() {
     
 
         <div>
-          <p className="text-white text-center">4441 NW 37th Ave, Miami</p>
-          <p className=" text-center text-white">FL 33142, USA</p>
+          <p className="text-white text-center">5716 ne 4th Ave, Miami</p>
+          <p className=" text-center text-white">FL 33137, USA</p>
         </div>
       </div>
 
       <p className=" text-xs text-white text-center mb-10">
-        © Copyright 2022 Ready Art Digital©. All rights reserved.
+        © Copyright 2025 Ready Art Digital©. All rights reserved.
       </p>
     </div>
   );
