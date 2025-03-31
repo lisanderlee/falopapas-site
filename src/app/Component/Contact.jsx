@@ -25,7 +25,7 @@ export default function ContactUs() {
               <span className=" font-bold">Let&rsquo;s create together!</span>
             </p>
             <div className="mt-10 font-bold text-xl">
-          <a className="flex items-center" href="mailto:falopapas.art@gmail.com">
+          <a className="flex items-center" href="mailto:falopapas@gmail.com">
           <Image
               src="/web-images/mail.svg"
               width={50}
