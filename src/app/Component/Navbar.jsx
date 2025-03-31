@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div className="flex flex-col-reverse px-5 mt-4 justify-center   md:flex-row md:justify-between lg:flex-row lg:w-full lg:justify-between lg:h-24 lg:items-center lg:px-20 ">
       <div className=" lg:flex hidden">
-        <p className="text-white">@2023</p>
+        <p className="text-white">@2025</p>
       </div>
       <div className="  mt-24 px-10 justify-center items-center">
         <Link className="items-center" href="/">
@@ -38,6 +38,13 @@ export default function Navbar() {
             height={50}
             alt="Picture of the author"
           />
+        </a>
+         <a
+          href="https://readyart.digital/"
+          target="_blank"
+          className="mr-5"
+        >
+      <p className="text-white">On-line Shop</p>
         </a>
         <button
           onClick={handleClick}
