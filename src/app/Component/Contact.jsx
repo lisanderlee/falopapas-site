@@ -32,7 +32,7 @@ export default function ContactUs() {
               height={50}
               alt="instagram logo"
             />
-            <p className="ml-4 text-white ">falopapas.art@gmail.com</p>
+            <p className="ml-4 text-white ">falopapas@gmail.com</p>
           </a>
           <a
             href="http://www.instagram.com/falopapas"
