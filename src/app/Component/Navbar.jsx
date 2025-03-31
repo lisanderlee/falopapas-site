@@ -27,6 +27,13 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="flex flex-row  justify-end items-center">
+      <a
+          href="https://readyart.digital/"
+          target="_blank"
+          className="mr-5"
+        >
+      <p className="text-white">On-line Shop</p>
+        </a>
         <a
           href="http://www.instagram.com/falopapas"
           target="_blank"
@@ -39,13 +46,7 @@ export default function Navbar() {
             alt="Picture of the author"
           />
         </a>
-         <a
-          href="https://readyart.digital/"
-          target="_blank"
-          className="mr-5"
-        >
-      <p className="text-white">On-line Shop</p>
-        </a>
+   
         <button
           onClick={handleClick}
           className="outline text-white hover:bg-white hover:text-black outline-white px-5 py-2 rounded-full "
